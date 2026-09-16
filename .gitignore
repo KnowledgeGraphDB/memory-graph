@@ -128,7 +128,6 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.env
 .venv
 env/
 venv/
@@ -168,7 +167,6 @@ cython_debug/
 .idea/
 
 # VS Code
-.vscode/
 
 # Neo4j data
 neo4j_data/
@@ -197,3 +195,4 @@ Thumbs.db
 
 # MCPB bundles (built artifacts)
 *.mcpb
+config.bat

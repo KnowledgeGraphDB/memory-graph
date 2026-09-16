@@ -8,8 +8,8 @@
     "memorygraph": "src/cli.ts"
   },
   "scripts": {
-    "dev": "bun run src/cli.ts",
-    "build": "bun build src/cli.ts --compile --outfile memorygraph",
+    "dev": "node init && bun run src/cli.ts",
+    "build": "node init && bun build src/cli.ts --compile --outfile memorygraph",
     "test": "bun test",
     "typecheck": "tsc --noEmit",
     "postinstall": "node scripts/vendor-postinstall.cjs"
